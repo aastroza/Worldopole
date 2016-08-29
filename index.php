@@ -53,7 +53,7 @@ include_once('core/process/data.loader.php');
 				<ul class="nav navbar-nav navbar-right">
 					<!--
 					<li>
-						<a href="/pokestops" title="Brusselople LiveMap">
+						<a href="/pokestops" title="Mapa Santia-go">
 							<i class="fa fa-play" aria-hidden="true"></i> LiveMap
 						</a>
 					</li>
@@ -62,17 +62,13 @@ include_once('core/process/data.loader.php');
 						<a href="pokemon" title="<?= $config->infos->site_name ?> Pokédex" class="menu-label"><i class="fa fa-map-marker" aria-hidden="true"></i> <?= $locales->NAV_POKEDEX->$lang ?></a>
 					</li>
 					<li>
-						<a href="gym" title="Brusselopole Gyms" class="menu-label"><i class="fa fa-bolt" aria-hidden="true"></i> <?= $locales->GYMS->$lang ?></a>
+						<a href="gym" title="Gimnasios Santia-go" class="menu-label"><i class="fa fa-bolt" aria-hidden="true"></i> <?= $locales->GYMS->$lang ?></a>
 					</li>
 					<li>
-						<a href="pokestops" title="Brusselopole Pokéstops" class="menu-label"><i class="fa fa-medkit" aria-hidden="true"></i> Pokéstops</a>
+						<a href="pokestops" title="Poképaradas Santia-go" class="menu-label"><i class="fa fa-medkit" aria-hidden="true"></i> Pokéstops</a>
 					</li>
 					<li>
-						<a href="<?= $config->urls->fb_url ?>" title="Join us on Facebook" target="_blank" class="menu-label"><i class="fa fa-facebook-square" aria-hidden="true"></i>
- Facebook</a>
-					</li>
-					<li>
-						<a href="<?= $config->urls->tw_url ?>" title="Join us on Twitter" target="_blank" class="menu-label"><i class="fa fa-twitter" aria-hidden="true"></i>
+						<a href="<?= $config->urls->tw_url ?>" title="Síguenos en Twitter" target="_blank" class="menu-label"><i class="fa fa-twitter" aria-hidden="true"></i>
  Twitter</a>
 					</li>
 				</ul>
@@ -130,7 +126,7 @@ include_once('core/process/data.loader.php');
 						<p><?= $locales->FOOTER_SUB->$lang ?></p>
 						<?= $locales->FOOTER_VISUAL_CONTENT->$lang ?>
 
-						<p class="text-center">Made in Brussels <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a> | Based on <a href="https://github.com/brusselopole">Brusselopole</a></p>
+						<p class="text-center">Tecnología creada en Bruselas <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a>, desarrollada para Santiago por <a href="http://twitter.com/aastroza">Alonso Astroza</a> | Basada en <a href="https://github.com/brusselopole">Brusselopole</a></p>
 					</div>
 					
 		</div>
