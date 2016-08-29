@@ -127,10 +127,14 @@ include_once('core/process/data.loader.php');
 						<?= $locales->FOOTER_VISUAL_CONTENT->$lang ?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<p class="text-center">Made in Brussels <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a><br/>Based on <a href="https://github.com/brusselopole">Brusselopole</a> by <a href="http://56k.be/" target="_blank">56k</a> & <a href="http://vandereecken.me" target="_blank">Nithou</a></p>
 =======
 						<p class="text-center">Tecnología creada en Bruselas <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a>, desarrollada para Santiago por <a href="http://twitter.com/aastroza">Alonso Astroza</a> | Basada en <a href="https://github.com/brusselopole">Brusselopole</a></p>
 >>>>>>> 0f795e52cdeb1643e3d4212a571ce763e84e2233
+=======
+						<p class="text-center">Made in Brussels<br/>Based on <a href="https://github.com/brusselopole">Brusselopole</a> by <a href="http://56k.be/" target="_blank">56k</a> & <a href="http://vandereecken.me" target="_blank">Nithou</a></p>
+>>>>>>> 2fb229253e61534b266c4b7210b6b023987b3b0e
 					</div>
 					
 		</div>
