@@ -65,8 +65,11 @@ include_once('core/process/data.loader.php');
 						<a href="gym" title="Gimnasios Santia-go" class="menu-label"><i class="fa fa-bolt" aria-hidden="true"></i> <?= $locales->GYMS->$lang ?></a>
 					</li>
 					<li>
-						<a href="pokestops" title="Poképaradas Santia-go" class="menu-label"><i class="fa fa-medkit" aria-hidden="true"></i> Pokéstops</a>
+						<a href="pokestops" title="Poképaradas Santia-go" class="menu-label"><i class="fa fa-medkit" aria-hidden="true"></i> Poképaradas</a>
 					</li>
+					<li>
+                                                <a href="faq" title="Acerca de" class="menu-label"><i class="fa fa-question-circle" aria-hidden="true"></i> ¿Preguntas?</a>
+                                        </li>
 					<li>
 						<a href="<?= $config->urls->tw_url ?>" title="Síguenos en Twitter" target="_blank" class="menu-label"><i class="fa fa-twitter" aria-hidden="true"></i>
  Twitter</a>
@@ -121,20 +124,16 @@ include_once('core/process/data.loader.php');
 				<div class="row">
 
 					<div class="col-md-12 text-center">
-						<img src="core/img/logo.png" width=50 class="big-icon" alt="Brusselopole icon">
+						<img src="core/img/logo2.png" width=50 class="big-icon" alt="Brusselopole icon">
 						<h2><?= $locales->FOOTER_TITLE->$lang ?></h2>
 						<p><?= $locales->FOOTER_SUB->$lang ?></p>
 						<?= $locales->FOOTER_VISUAL_CONTENT->$lang ?>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-						<p class="text-center">Made in Brussels <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a><br/>Based on <a href="https://github.com/brusselopole">Brusselopole</a> by <a href="http://56k.be/" target="_blank">56k</a> & <a href="http://vandereecken.me" target="_blank">Nithou</a></p>
-=======
-						<p class="text-center">Tecnología creada en Bruselas <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a>, desarrollada para Santiago por <a href="http://twitter.com/aastroza">Alonso Astroza</a> | Basada en <a href="https://github.com/brusselopole">Brusselopole</a></p>
->>>>>>> 0f795e52cdeb1643e3d4212a571ce763e84e2233
-=======
-						<p class="text-center">Made in Brussels<br/>Based on <a href="https://github.com/brusselopole">Brusselopole</a> by <a href="http://56k.be/" target="_blank">56k</a> & <a href="http://vandereecken.me" target="_blank">Nithou</a></p>
->>>>>>> 2fb229253e61534b266c4b7210b6b023987b3b0e
+
+
+						<p class="text-center">Tecnología creada en Bruselas <a href="https://sprouttobebrussels.be/en" target="_blank" style="border-bottom:0px white solid;"><img src="core/img/sprout.svg" alt="Srpout to be Brussels" height="20"></a><br/>Basada en <a href="https://github.com/brusselopole">Brusselopole</a> hecho por <a href="http://56k.be/" target="_blank">56k</a> & <a href="http://vandereecken.me" target="_blank">Nithou</a>.</p><p>Desarrollada para Santiago por <a href="http://twitter.com/aastroza">Alonso Astroza</a>.<br/>Logo de Santia-go y gráficas de Twitter por <a href="http://twitter.com/mrverywell">Fabián Choppelo</a>.</p>
+						
+
 					</div>
 					
 		</div>

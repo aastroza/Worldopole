@@ -92,7 +92,7 @@
    	"WIDGET_POKEMON_SUB": {
     	"EN": "in %s right now",
     	"FR": "à %s maintenant",
-    	"ES": "en %s en este momento"
+    	"ES": "en %s en este momento."
    	},
    	"WIDGET_GYM_SUB": {
     	"EN": "to fight for.",
@@ -105,9 +105,9 @@
     	"ES": "activado en %s."
    	},
    	"WIDGET_FB_LIKE": {
-    	"EN": "<a href='https://www.facebook.com/brusselopole/' target='_blank'><big>Like us on</big><br><strong>Facebook!</strong></a>",
+    	"EN": "<a href='https://www.twitter.com/pokealertasscl' target='_blank'><big>Follow us on</big><br><big><strong>Twitter!</strong></big></a>",
     	"FR": "<a href='https://www.facebook.com/brusselopole/' target='_blank'><big>Likez nous sur</big><br><strong>Facebook!</strong></a>",
-    	"ES": "<a href='https://www.facebook.com/brusselopole/' target='_blank'><big>Danos Me gusta en </big><br><strong>Facebook!</strong></a>"
+    	"ES": "<a href='https://www.twitter.com/pokealertasscl' target='_blank'><big>¡Sigue nuestras alertas en </big><br><big><strong>Twitter!</strong></big></a>"
    	},
    	"RECENT_SPAWNS": {
     	"EN": "The most <strong>recent</strong> spawns",
@@ -272,7 +272,7 @@
    	"POKEMON_WHERE": {
     	"EN": "Where can you <strong>hunt</strong>",
     	"FR": "Où se <strong>trouve</strong>",
-    	"ES": "Dónde puedes <strong>cazar</strong>"
+    	"ES": "¿Dónde puedes <strong>cazar</strong>"
    	},
    	"POKEMON_BREAKDOWN": {
     	"EN": "stats breakdown",
