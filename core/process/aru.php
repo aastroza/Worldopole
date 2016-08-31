@@ -194,7 +194,7 @@ switch($request){
 			
 			if($data->lure_expiration != ''){
 				$icon = 'pokestap_lured.png';
-				$text = 'Lured expire @ '.date('h:i:s', strtotime($data->lure_expiration)+(3600*2)) ;
+				$text = 'Lured expire @ '.date('h:i:s', strtotime($data->lure_expiration)-(3600*3)) ;
 			}
 			else{
 				$icon = 'pokestap.png';

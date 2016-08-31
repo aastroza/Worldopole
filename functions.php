@@ -39,7 +39,7 @@ function time_ago( $timestamp, $now = 0, $lang = 'EN' ) {
 	    }
 	
 	    // Calculate the time difference between the current time reference point and the timestamp we're comparing.
-	    $time_difference = (int) abs( $now - $timestamp );
+	    $time_difference = (int) abs( $now - $timestamp ) - 5*$hour_in_seconds;
 		
 		
 	    // Calculate the time ago using the smallest applicable unit.
@@ -75,7 +75,7 @@ function time_ago( $timestamp, $now = 0, $lang = 'EN' ) {
 	    }
 	    
 	
-	    if ( $difference_value <= 1 ) {
+	    if ( $difference_value > 1 ) {
 	        
 	        $difference_label = $difference_label.'S'; 
 	        $time_ago = $difference_value.' '.$translations->$difference_label->$lang; 

@@ -3,7 +3,7 @@
 include_once('config.php');
 include_once('functions.php');	
 include_once('core/process/data.loader.php');
-
+include_once('analyticstracking.php');
 ?>
 
 
@@ -124,7 +124,7 @@ include_once('core/process/data.loader.php');
 				<div class="row">
 
 					<div class="col-md-12 text-center">
-						<img src="core/img/logo2.png" width=50 class="big-icon" alt="Brusselopole icon">
+						<img src="core/img/logo.png" width=50 class="big-icon" alt="Brusselopole icon">
 						<h2><?= $locales->FOOTER_TITLE->$lang ?></h2>
 						<p><?= $locales->FOOTER_SUB->$lang ?></p>
 						<?= $locales->FOOTER_VISUAL_CONTENT->$lang ?>

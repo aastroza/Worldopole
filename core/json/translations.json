@@ -102,7 +102,7 @@
    	"WIDGET_LURES_SUB": {
     	"EN": "activated in %s.",
     	"FR": "actifs sur %s.",
-    	"ES": "activado en %s."
+    	"ES": "activos en %s."
    	},
    	"WIDGET_FB_LIKE": {
     	"EN": "<a href='https://www.twitter.com/pokealertasscl' target='_blank'><big>Follow us on</big><br><big><strong>Twitter!</strong></big></a>",
@@ -117,7 +117,7 @@
    	"FIGHT_TITLE": {
     	"EN": "The <strong>fight</strong> is on",
     	"FR": "Le <strong>combat</strong> fait rage",
-    	"ES": "El <strong>combate</strong> ha iniciado"
+    	"ES": "La <strong>batalla</strong> por Santia-go ha iniciado"
    	},
    	"FOOTER_TITLE": {
     	"EN": "Thanks and copyrights",

@@ -64,15 +64,15 @@
 
 <div class="row hidden-xs hiddem-sm area">
 	<div class="col-md-4">
-		<p align="center"><a href="<?= $config->urls->fb_mystic ?>" target="_blank" class="btn btn-default"><i class="fa fa-facebook"></i> <?= $locales->TEAM->$lang ?> <?= $locales->MYSTIC->$lang ?></a></p>
+		<p align="center"><a href="<?= $config->urls->fb_mystic ?>" target="_blank" class="btn btn-default"><i class="fa fa-twitter"></i> <?= $locales->TEAM->$lang ?> <?= $locales->MYSTIC->$lang ?></a></p>
 	</div>
 
 	<div class="col-md-4">
-		<p align="center"><a href="<?= $config->urls->fb_valor ?>" target="_blank" class="btn btn-default"><i class="fa fa-facebook"></i> <?= $locales->TEAM->$lang ?> <?= $locales->VALOR->$lang ?></a></p>
+		<p align="center"><a href="<?= $config->urls->fb_valor ?>" target="_blank" class="btn btn-default"><i class="fa fa-twitter"></i> <?= $locales->TEAM->$lang ?> <?= $locales->VALOR->$lang ?></a></p>
 	</div>
 
 	<div class="col-md-4">
-		<p align="center"><a href="<?= $config->urls->fb_instinct ?>" target="_blank" class="btn btn-default"><i class="fa fa-facebook"></i> <?= $locales->TEAM->$lang ?> <?= $locales->INSTINCT->$lang ?></a></p>
+		<p align="center"><a href="<?= $config->urls->fb_instinct ?>" target="_blank" class="btn btn-default"><i class="fa fa-twitter"></i> <?= $locales->TEAM->$lang ?> <?= $locales->INSTINCT->$lang ?></a></p>
 	</div>
 </div>
 

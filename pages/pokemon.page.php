@@ -32,9 +32,9 @@
 			<small>[<?= $pokemon->rarity ?>]</small></h1>
 
 			<p id="share">
-				<a href="https://www.facebook.com/sharer/sharer.php?u=<?= HOST_URL ?>pokemon/<?= $pokemon->id ?>" target="_blank" class="btn btn-primary" title="Share on Facebook"><?= $locales->SHARE->$lang ?> <i class="fa fa-facebook" aria-hidden="true"></i></a> 
+				<a href="https://www.facebook.com/sharer/sharer.php?u=<?= HOST_URL ?>/pokemon/<?= $pokemon->id ?>" target="_blank" class="btn btn-primary" title="Share on Facebook"><?= $locales->SHARE->$lang ?> <i class="fa fa-facebook" aria-hidden="true"></i></a> 
 				
-				<a href="https://twitter.com/intent/tweet?source=<?= HOST_URL ?>pokemon/<?= $pokemon_id ?>&text=Find <?= $pokemon->name ?> in Brussels <?= HOST_URL ?>pokemon/<?= $pokemon->id ?>" target="_blank" title="Share on Twitter" class="btn btn-info"><?= $locales->SHARE->$lang ?> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/intent/tweet?source=<?= HOST_URL ?>pokemon/<?= $pokemon_id ?>&text=Encuentra a <?= $pokemon->name ?> en Santiago <?= HOST_URL ?>/pokemon/<?= $pokemon->id ?>" target="_blank" title="Share on Twitter" class="btn btn-info"><?= $locales->SHARE->$lang ?> <i class="fa fa-twitter" aria-hidden="true"></i></a>
 			</p>
 			
 		</div>
@@ -117,19 +117,15 @@
 				<td class="col-md-8 col-xs-8"><strong><?= $locales->POKEMON_RATE->$lang ?> :</strong></td>
 				<td class="col-md-4 col-xs-4"><?= $pokemon->spawn_rate ?> / day</td>
 			</tr>
-			<tr>
-				<td class="col-md-8 col-xs-8"><?php if(isset($pokemon->protected_gyms)) { echo "<strong>" . $locales->POKEMON_GYM->$lang . $pokemon->name . "</strong> :";} ?></td>
-				<td class="col-md-4 col-xs-4"><?php if(isset($pokemon->protected_gyms)) { echo $pokemon->protected_gyms ;}?></td>
-			</tr>
 		</table>
 		</div>
 	
 		<div class="col-md-6" style="padding-top:10px;">
 		<table class="table">
 			<tr>
-				<td class="col-md-8 col-xs-8"><strong><?= $locales->POKEMON_EVOLUTION->$lang ?> :</strong></td>
-				<td class="col-md-4 col-xs-4"><?php if(isset($pokemon->candies)) { echo  $pokemon->candies . "&nbsp;". $pokemon->candy_name . " candies" ;} else { echo $locales->POKEMON_FINAL->$lang; } ?></td>
-			</tr>
+                                <td class="col-md-8 col-xs-8"><?php if(isset($pokemon->protected_gyms)) { echo "<strong>" . $locales->POKEMON_GYM->$lang . $pokemon->name . "</strong> :";} ?></td>
+                                <td class="col-md-4 col-xs-4"><?php if(isset($pokemon->protected_gyms)) { echo $pokemon->protected_gyms ;}?></td>
+                        </tr>
 			<tr>
 				<td class="col-md-8 col-xs-8"><strong><?= $locales->POKEMON_QUICK->$lang ?> :</strong></td>
 				<td class="col-md-4 col-xs-4"><?= $pokemon->quick_move ?></td>
@@ -153,8 +149,6 @@
 	 <a class="btn btn-default" href="#family" class="page-scroll"><i class="fa fa-share-alt"></i> <?= $locales->POKEMON_FAMILY->$lang ?></a>
 	</div>
 </div>
-
-
 
 
 <div class="row area" id="where">
