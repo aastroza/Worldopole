@@ -39,7 +39,7 @@ function time_ago( $timestamp, $now = 0, $lang = 'EN' ) {
 	    }
 	
 	    // Calculate the time difference between the current time reference point and the timestamp we're comparing.
-	    $time_difference = (int) abs( $now - $timestamp ) - 5*$hour_in_seconds;
+	    $time_difference = (int) abs( $now - $timestamp );
 		
 		
 	    // Calculate the time ago using the smallest applicable unit.

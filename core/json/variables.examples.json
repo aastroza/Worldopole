@@ -1,30 +1,30 @@
 {
 	"urls": {
-		"fb_url"		:	"https://www.facebook.com/brusselopole/", 
-		"tw_url"		:	"https://twitter.com/brusselopole",
-		"fb_valor"		: 	"http://bit.ly/ValorBrussels",
-		"fb_mystic"		:	"http://bit.ly/MysticBrussels",
-		"fb_instinct"	: 	"http://bit.ly/InstinctBrussels"
-	 }, 
-	 "infos": {
-		 "site_name"	: 	"Worldopole",
-		 "city"			: 	"Weuuurld",
-		 "logo_path"	: 	"core/img/logo.jpg",
-		 "site_title"	:	"We ❤️ Pokémon and Data",
-		 "site_claim"	: 	"Find all collected and proccessed datas about PokémonGo."
-	 }, 
-	 "system": {
-		 "map_center_lat"	: "50.844441",
-		 "map_center_long"	: "4.363557",
-		 "zomm_level"		: "13",
-		 "time_inverval"	: "+2",
-		 "GMaps_Key"		: "",
-		 "timezone"			: "Paris/Europe",
-		 "max_pokemon"		: 151
-	 },
+                "fb_url"                :       "https://twitter.com/pokealertasscl",
+                "tw_url"                :       "https://twitter.com/pokealertasscl",
+                "fb_valor"              :       "https://twitter.com/teamInstinctRM",
+                "fb_mystic"             :       "https://twitter.com/teamInstinctRM",
+                "fb_instinct"   :       "https://twitter.com/teamInstinctRM"
+         }, 
+         "infos": {
+                 "site_name"    :       "Santia-go",
+                 "city"                 :       "Santiago",
+                 "logo_path"    :       "core/img/logo.jpg",
+                 "site_title"   :       "Amamos ❤️ Pokémon y los Datos",
+                 "site_claim"   :       "Encuentra toda la información recolectada sobre PokémonGo."
+         }, 
+         "system": {
+                 "map_center_lat"       : "-33.461277",
+                 "map_center_long"      : "-70.682296",
+                 "zomm_level"           : "12",
+                 "time_inverval"        : "-3",
+                 "GMaps_Key"            : "AIzaSyAj0ds-MFWUpkWmuifI1cOf7k2qTBxKeDA",
+                 "timezone"                     : "Chile/America",
+                 "max_pokemon"          : 151
+         },
 	 "lang":{
 		 "en"				: true,
-		 "fr"				: true,
+		 "fr"				: false,
 		 "es"				: true
 	 }
   

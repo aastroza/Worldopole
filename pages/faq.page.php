@@ -6,7 +6,7 @@
 		<div class="faq">
 			<h2 class="text-center sub-title">¿Cómo <strong>funciona</strong>?</h2>
 			<p><strong>Santia-go</strong> está basado en <a href="https://github.com/brusselopole/Worldopole" target="_blank">Brusselopole</a> modificado para Santiago por <a href="http://twitter.com/aastroza" target="_blank">Alonso Astroza</a>. La recolección de datos está basada en el sistema también montado por Alonso para <a href="https://twitter.com/PokeAlertasSCL" target="_blank">PokeAlertas</a>, el cual funciona gracias a <a href="https://github.com/favll/pogom" target="_blank">Pogom</a> y <a href="http://www.tweepy.org/" target="_blank">Tweepy</a>.</p>
-			<p><strong>Básicamente</strong> tenemos un conjunto de <strong>cuentas de entrenadores virtuales</strong> viajando a lo largo de Santiago (gracias a mini computadores) y alimentando una base de datos centralizada de cada Pokémon encontrado. El sitio usa los datos para construir <strong>estadísticas y mapas de calor</strong>. Además la cuenta de Twitter se encarga de avisar la <strong>aparición de los Pokémon más búscados</strong>.</p>
+			<p><strong>Básicamente</strong> tenemos un conjunto de <strong>cuentas de entrenadores virtuales</strong> viajando a lo largo de Santiago (gracias a mini computadores) y alimentando una base de datos centralizada con cada Pokémon encontrado. El sitio usa los datos para construir <strong>estadísticas y mapas de calor</strong>. Además la cuenta de Twitter se encarga de avisar la <strong>aparición de los Pokémon más búscados</strong>.</p>
 			<p>Otros datos como los <strong>mejores ataques</strong> y <strong>dulces</strong> fueron agregadas por nosotros manualmente.</p>
 		</div>
 
@@ -22,13 +22,13 @@
 		</div>
 
 		<div class="faq">
-			<h2 class="text-center sub-title">¿Rastreas a <strong>TODOS</strong> los Pokémon?</h2>
+			<h2 class="text-center sub-title">¿Rastrean a <strong>TODOS</strong> los Pokémon?</h2>
 			<p><strong>No</strong>, el sistema está basado en <strong>nodos</strong> que capturan datos desde las <strong>API's de Niantic</strong>. Como sólo hay una cantidad limitada de nodos disponibles sólo se pueden recorrer de manera certera algunas <strong>partes de Santiago</strong>. Estas partes se dividen en <strong>áreas de 10 metros</strong> las que se escanean durante <strong>5 segundos</strong>, luego se escanea la siguiente área de 10 metros y se repite el proceso. Cada área es escaneada al menos una vez cada 15 minutos para <strong>intentar mostrar</strong> todos los pokémon en la zona.</p>
 		</div>
 
 		<div class="faq">
 			<h2 class="text-center sub-title">¡Vivo en Santiago pero <strong>no veo Pokémon ni PokeAlertas en mi área</strong>!</h2>
-			<p>Dije que recorríamos <i>"partes de Santiago"</i>, no <i>"todo Santiago"</i>. ¡Lo siento, si quieres puedes ayudarnos a extender la cobertura!</p>
+			<p>Dijimos que recorríamos <i>"partes de Santiago"</i>, no <i>"todo Santiago"</i>. ¡Lo siento, si quieres puedes ayudarnos a extender la cobertura!</p>
 		</div>
 
 
@@ -48,7 +48,7 @@
 				<li>Habilidad para montar un servidor de <a href="https://github.com/favll/pogom" target="_blank">Pogom</a>.</li>
 			</ul>
 			<p>Una vez que lo tengas funcionando <a href="http://twitter.com/PokeAlertasSCL" target="_blank">contactanos</a>. El servidor puede correr tranquilamente en una Raspberry Pi 2 o 3 en tu casa 😉.</p>
-			<p>Si te interesa ayudarnos a expandirnos y/o a mantener el sitio andando, también puedes apoyarnos mediante una donación:</p>
+			<p>Si te interesa ayudarnos a expandirnos (comprar más RaspberryPi's) también puedes apoyarnos mediante una donación:</p>
 			<table align="center">
 				<tbody>
 					<tr>
@@ -75,10 +75,15 @@
 			<h2 class="text-center sub-title">¿<strong>Por qué</strong> se les ocurrió esto?</h2>
 			<p><strong>Pokémon Go</strong> es un fenómeno mundial y está lleno de <strong>nuevas oportunidades</strong> e ideas para los juegos y la exploración en general. Nos interesa el juego pero más nos interesó en un comienzo <strong>el fenómeno y la parte técnica</strong> que hay detrás. Así que comenzamos a jugar con las <strong>API's de Niantic</strong> sólo para ver que cosas conseguíamos. Se nos ocurrió armar la cuenta de <strong>Twitter</strong> para avisar sobre la aparición de los Pokémon raros en Santiago y hasta <a href="http://www.emol.com/noticias/Tecnologia/2016/08/11/816958/PokeAlertas-La-cuenta-de-Twitter-que-avisa-cuando-un-pokemon-aparece-en-Santiago.html" target="_blank">salimos en el diario</a> mostrando el invento. Como nos motivó tanto la gran respuesta de los seguidores de la cuenta, decidimos montar este sitio web para compartir todos los datos que hemos recolectado, usando el fantástico trabajo que están haciendo la gente tras <strong>Brusselopole</strong>.</p>
 		</div>
+		<div class="faq">
+                        <h2 class="text-center sub-title"><strong>Agradecimientos</strong></h2>
+                        <p>Muchas gracias a <strong>Amaury</strong> por su genial Brusselopole, a <strong>Sergio</strong> y <strong>Jorge</strong> por las ideas, a <strong>Alfonso</strong>, <strong>Carlos</strong> y <strong>Rodrigo</strong> por hostear puntos de capturas de datos, a <strong>Fabián</strong> por ayudarme con los gráficos y a todos los <strong>seguidores</strong> de la cuenta de Twitter que día a día me motivan a seguir con este proyecto. </p>
+                        <p>Y un gran agradecimiento final a mi esposa <strong>Sole</strong>. Si ella no me aguantara tantas horas pegado frente al computador ninguno de estos proyectos hubiese visto la luz. <strong>Te amo ❤️</strong> .</p>
+		</div>
 
 		<div class="faq">
-			<h2 class="text-center sub-title">¿Esto es <strong>legal</strong>?</h2>
-			<p><strong>No</strong>. Los Términos de Servicio de Niantic son claros en señalar que <strong>programas externos no pueden usar sus API's</strong> para extraer datos. Este sitio y la cuenta de Twitter son sólo pruebas de concepto (sin ningún fin de lucro) construidas en nuestro tiempo libre.</p>
+			<h2 class="text-center sub-title">¿Esto está <strong>permitido</strong> por Niantic?</h2>
+			<p><strong>No</strong>. Los Términos de Servicio de Niantic son claros en señalar que <strong>programas externos no pueden usar sus API's</strong> para extraer datos. Este sitio y la cuenta de Twitter son sólo pruebas de concepto construidas en nuestro tiempo libre.</p>
 		</div>
 
 	</div>
